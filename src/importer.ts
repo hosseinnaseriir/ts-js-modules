@@ -1,8 +1,8 @@
 // Import Node Elements From HTML
 
-export const imageEl = document.getElementById('image');
-export const nameEl = document.getElementById('name');
-export const smEl = document.getElementById('sm');
-export const mdEl = document.getElementById('md');
-export const lgEl = document.getElementById('lg');
+export const imageInput = <HTMLInputElement>document.getElementById('image');
+export const nameInput = <HTMLInputElement>document.getElementById('name');
+export const smInput = <HTMLInputElement>document.getElementById('sm');
+export const mdInput = <HTMLInputElement>document.getElementById('md');
+export const lgInput = <HTMLInputElement>document.getElementById('lg');
 export const submitEl = <HTMLButtonElement>document.getElementById('submit');
