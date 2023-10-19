@@ -3,3 +3,5 @@ export type ProductType = {
     name: string;
     size: "SM" | "MD" | "LG"
 }
+
+export type ProductsListType = Array<ProductType | null>
