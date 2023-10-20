@@ -49,7 +49,6 @@ export const createProductCard = (product: ProductType) => {
     prdoductsEl.append(li)
 }
 
-
 export const renderProducts = () => {
     const productsListJson = localStorage.getItem("products") ?? "";
     const productsList = productsListJson ? JSON.parse(productsListJson) : [];
